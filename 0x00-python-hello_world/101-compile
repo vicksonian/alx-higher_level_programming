@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-import sys
-import py_compile
+
 import os
+from py_compile import compile
 
-pyfile = os.getenv("PYFILE")
+py_file = os.environ.get('PYFILE')
+if not py_file:
+    print("Error: PYFILE environment variable not set")
+    exit(1)
 
-if not pyfile:
-    sys.stderr.write("Error: PYFILE environment variable not set\n")
-    sys.exit(1)
+output_file = py_file + 'c'
 
-base_name, _ = os.path.splitext(pyfile)
-py_compile.compile(pyfile, cfile=base_name + '.pyc')
-print(f"Compiling {pyfile} ...")
+print(f"Compiling {py_file} ...")
+compile(py_file, output_file)
+print(f"Compiled {py_file} to {output_file}")
