@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import sys
+import py_compile
+import os
+
+pyfile = os.getenv("PYFILE")
+
+if not pyfile:
+    sys.stderr.write("Error: PYFILE environment variable not set\n")
+    sys.exit(1)
+
+base_name, _ = os.path.splitext(pyfile)
+py_compile.compile(pyfile, cfile=base_name + '.pyc')
+print(f"Compiling {pyfile} ...")
