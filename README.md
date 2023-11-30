@@ -1,33 +1,46 @@
 # 0x00. Python - Hello, World
 	## 0x00-python-hello_world
-	- []  0-run
-	- []  1-run_inline
-	- []  2-print.py
-	- []  3-print_number.py
-	- []  4-print_float.py
-	- []  5-print_string.py
-	- []  6-concat.py
-	- []  7-edges.py
-	- []  8-concat_edges.py
-	- []  9-easter_egg.py
-	- []  10-check_cycle.c, lists.h
-	- []  100-write.py
-	- []  101-compile
-	- []  102-magic_calculation.py
+	- [x]  0-run
+	- [x]  1-run_inline
+	- [x]  2-print.py
+	- [x]  3-print_number.py
+	- [x]  4-print_float.py
+	- [x]  5-print_string.py
+	- [x]  6-concat.py
+	- [x]  7-edges.py
+	- [x]  8-concat_edges.py
+	- [x]  9-easter_egg.py
+	- [x]  10-check_cycle.c, lists.h
+	- [x]  100-write.py
+	- [x]  101-compile
+	- [x]  102-magic_calculation.py
 
 	## 0x01. Python - if/else, loops, functions
 
-	- [] 0-positive_or_negative.py
-	- [] 1-last_digit.py
-	- [] 2-print_alphabet.py
-	- [] 3-print_alphabt.py
-	- [] 4-print_hexa.py
-	- [] 5-print_comb2.py
-	- [] 6-print_comb3.py
-	- [] 7-islower.py
-	- [] 8-uppercase.py
-	- [] 9-print_last_digit.py
-	- [] 10-add.py
-	- [] 11-pow.py
-	- [] 12-fizzbuzz.py
-	- [] 13-insert_number.c, lists.h
+	- [x] 0-positive_or_negative.py
+	- [x] 1-last_digit.py
+	- [x] 2-print_alphabet.py
+	- [x] 3-print_alphabt.py
+	- [x] 4-print_hexa.py
+	- [x] 5-print_comb2.py
+	- [x] 6-print_comb3.py
+	- [x] 7-islower.py
+	- [x] 8-uppercase.py
+	- [x] 9-print_last_digit.py
+	- [x] 10-add.py
+	- [x] 11-pow.py
+	- [x] 12-fizzbuzz.py
+	- [x] 13-insert_number.c, lists.h
+
+	## 0x02. Python - import & modules
+
+	- [x] 0-add.py
+	- [x] 1-calculation.py
+	- [x] 2-args.py
+	- [x] 3-infinite_add.py
+	- [x] 4-hidden_discovery.py
+	- [x] 5-variable_load.py
+	- [x] 100-my_calculator.py
+	- [x] 101-easy_print.py
+	- [x] 102-magic_calculation.py
+	- [x] 103-fast_alphabet.py
