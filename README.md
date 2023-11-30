@@ -1,19 +1,19 @@
 # 0x00. Python - Hello, World
 	## 0x00-python-hello_world
-	- [x]  0-run
-	- [x]  1-run_inline
-	- [x]  2-print.py
-	- [x]  3-print_number.py
-	- [x]  4-print_float.py
-	- [x]  5-print_string.py
-	- [x]  6-concat.py
-	- [x]  7-edges.py
-	- [x]  8-concat_edges.py
-	- [x]  9-easter_egg.py
-	- [x]  10-check_cycle.c, lists.h
-	- [x]  100-write.py
-	- [x]  101-compile
-	- [x]  102-magic_calculation.py
+	-[x]  0-run
+	-[x]  1-run_inline
+	-[x]  2-print.py
+	-[x]  3-print_number.py
+	-[x]  4-print_float.py
+	-[x]  5-print_string.py
+	-[x]  6-concat.py
+	-[x]  7-edges.py
+	-[x]  8-concat_edges.py
+	-[x]  9-easter_egg.py
+	-[x]  10-check_cycle.c, lists.h
+	-[x]  100-write.py
+	-[x]  101-compile
+	-[x]  102-magic_calculation.py
 
 	## 0x01. Python - if/else, loops, functions
 
