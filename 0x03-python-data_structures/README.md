@@ -1,7 +1,7 @@
-0x03. Python - Data Structures: Lists, Tuples
+# 0x03. Python - Data Structures: Lists, Tuples
 
-Requirements
-Python Scripts
+# Requirements
+## Python Scripts
 
     Allowed editors: vi, vim, emacs
     All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -12,7 +12,7 @@ Python Scripts
     All your files must be executable
     The length of your files will be tested using wc
 
-C
+## C
 
     Allowed editors: vi, vim, emacs
     All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -25,8 +25,8 @@ C
     Don’t forget to push your header file
     All your header files should be include guarded
 
-    Tasks
-0. Print a list of integers
+    # Tasks
+### 0. Print a list of integers
 mandatory
 
 Write a function that prints all integers of a list.
@@ -59,7 +59,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 0-print_list_integer.py
 
-1. Secure access to an element in a list
+### 1. Secure access to an element in a list
 mandatory
 
 Write a function that retrieves an element from a list like in C.
@@ -88,8 +88,8 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 1-element_at.py
 
-2. Replace element
-mandatory
+### 2. Replace element
+ mandatory
 
 Write a function that replaces an element of a list at a specific position (like in C).
 
@@ -122,7 +122,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 2-replace_in_list.py
 
-3. Print a list of integers... in reverse!
+### 3. Print a list of integers... in reverse!
 mandatory
 
 Write a function that prints all integers of a list, in reverse order.
@@ -155,7 +155,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 3-print_reversed_list_integer.py
 
-4. Replace in a copy
+### 4. Replace in a copy
 mandatory
 
 Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
@@ -189,7 +189,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 4-new_in_list.py
 
-5. Can you C me now?
+### 5. Can you C me now?
 mandatory
 
 Write a function that removes all characters c and C from a string.
@@ -219,7 +219,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 5-no_c.py
 
-6. Lists of lists = Matrix
+### 6. Lists of lists = Matrix
 mandatory
 
 Write a function that prints a matrix of integers.
@@ -259,7 +259,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 6-print_matrix_integer.py
 
-7. Tuples addition
+### 7. Tuples addition
 mandatory
 
 Write a function that adds 2 tuples.
@@ -297,7 +297,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 7-add_tuple.py
 
-8. More returns!
+### 8. More returns!
 mandatory
 
 Write a function that returns a tuple with the length of a string and its first character.
@@ -324,7 +324,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 8-multiple_returns.py
 
-9. Find the max
+### 9. Find the max
 mandatory
 
 Write a function that finds the biggest integer of a list.
@@ -353,7 +353,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 9-max_integer.py
 
-10. Only by 2
+### 10. Only by 2
 mandatory
 
 Write a function that finds all multiples of 2 in a list.
@@ -391,7 +391,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 10-divisible_by_2.py
 
-11. Delete at
+### 11. Delete at
 mandatory
 
 Write a function that deletes the item at a specific position in a list.
@@ -422,7 +422,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 11-delete_at.py
 
-12. Switch
+### 12. Switch
 mandatory
 
 Complete the source code in order to switch value of a and b
@@ -443,7 +443,7 @@ Repo:
     Directory: 0x03-python-data_structures
     File: 12-switch.py
 
-13. Linked list palindrome
+### 13. Linked list palindrome
 mandatory
 
 Technical interview preparation:
