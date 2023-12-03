@@ -44,3 +44,20 @@
 	- [x] 101-easy_print.py
 	- [x] 102-magic_calculation.py
 	- [x] 103-fast_alphabet.py
+
+## 0x03. Python - Data Structures: Lists, Tuples
+
+	- [x] 0-print_list_integer.py
+	- [x] 1-element_at.py
+	- [x] 2-replace_in_list.py
+	- [x] 3-print_reversed_list_integer.py
+	- [x] 4-new_in_list.py
+	- [x] 5-no_c.py
+	- [x] 6-print_matrix_integer.py
+	- [x] 7-add_tuple.py
+	- [x] 8-multiple_returns.py
+	- [x] 9-max_integer.py
+	- [x] 10-divisible_by_2.py
+	- [x] 11-delete_at.py
+	- [x] 12-switch.py
+	- [x] 13-is_palindrome.c, lists.h
