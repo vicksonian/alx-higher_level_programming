@@ -61,3 +61,31 @@
 	- [x] 11-delete_at.py
 	- [x] 12-switch.py
 	- [x] 13-is_palindrome.c, lists.h
+
+## 0x04. Python - More Data Structures: Set, Dictionary
+
+        - [x] 0-square_matrix_simple.py
+        - [x] 1-search_replace.py
+        - [x] 2-uniq_add.py
+        - [x] 3-common_elements.py
+        - [x] 4-only_diff_elements.py
+        - [x] 5-number_keys.py
+        - [x] 6-print_sorted_dictionary.py
+        - [x] 7-update_dictionary.py
+        - [x] 8-simple_delete.py
+        - [x] 9-multiply_by_2.py
+        - [x] 10-best_score.py
+        - [x] 11-multiply_list_map.py
+        - [x] 12-roman_to_int.py
+        
+-[x] ADVANCED TASKS
+	- [x] 100-weight_average.py
+	- [x] 101-square_matrix_map.py
+	- [x] 102-complex_delete.py
+	- [x] 103-python.c
+
+
+
+
+
+	
