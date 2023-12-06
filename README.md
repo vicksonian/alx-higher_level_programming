@@ -77,8 +77,8 @@
         - [x] 10-best_score.py
         - [x] 11-multiply_list_map.py
         - [x] 12-roman_to_int.py
-        
--[x] ADVANCED TASKS
+	        
+- [x] ADVANCED TASKS
 	- [x] 100-weight_average.py
 	- [x] 101-square_matrix_map.py
 	- [x] 102-complex_delete.py
