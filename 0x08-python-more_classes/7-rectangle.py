@@ -2,6 +2,7 @@
 """Defines a class Rectangle
 """
 
+
 class Rectangle:
     """this represents a rectangle"""
     number_of_instances = 0
