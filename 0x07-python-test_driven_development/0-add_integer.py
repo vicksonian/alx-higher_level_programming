@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """
 Module with a function that adds 2 integers.
