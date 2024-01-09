@@ -1,18 +1,13 @@
 #!/usr/bin/python3
+"""Module with class MyList
+"""
+
 
 class MyList(list):
-    """
-    A class that inherits from the built-in list class.
-
-    Public methods:
-        print_sorted: Prints the list in ascending order.
-    """
+    """Class with method to print_sorted"""
+    pass
 
     def print_sorted(self):
-        """
-        Prints the list in ascending order.
+        """Method for sorted lists"""
 
-        Returns:
-            None
-        """
-        print(sorted(self))
+        print(sorted(list(self)))
