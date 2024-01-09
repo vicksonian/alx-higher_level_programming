@@ -1,0 +1,11 @@
+# Inside the nano editor, add the following content:
+[1, 4, 2, 3, 5]
+[1, 2, 3, 4, 5]
+[1, 4, 2, 3, 5]
+
+# Save and exit the editor (usually Ctrl + X, then Y, then Enter)
+
+# Using a command-line text editor (e.g., echo)
+echo "[1, 4, 2, 3, 5]" > tests/1-my_list.txt
+echo "[1, 2, 3, 4, 5]" >> tests/1-my_list.txt
+echo "[1, 4, 2, 3, 5]" >> tests/1-my_list.txt
