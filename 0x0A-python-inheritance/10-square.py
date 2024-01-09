@@ -4,9 +4,7 @@ Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """This Square class inherits from the Rectangle 
-    which inherits the BaseGeometry class
-    and defines the area of the rectangle"""
+    """Square class which inherits from Rectangle that inherits BaseGeometry"""
 
     def __init__(self, size):
         """Method for initialized the attrubutes"""
