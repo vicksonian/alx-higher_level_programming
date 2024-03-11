@@ -5,4 +5,3 @@ if (argv[2] === undefined) {
 } else {
   console.log(argv[2]);
 }
-
