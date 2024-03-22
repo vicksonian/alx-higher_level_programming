@@ -7,43 +7,30 @@ of that state, using the database hbtn_0e_4_usa, SQL injection free.
 import MySQLdb
 import sys
 
-if __name__ == "__main__":
-    # Command line arguments
-    mysql_username = sys.argv[1]
-    mysql_password = sys.argv[2]
-    database_name = sys.argv[3]
-    state_name = sys.argv[4]
-
-    # Connect to MySQL server
+if __name__ == '__main__':
     db = MySQLdb.connect(
-        host="localhost",
+        user=sys.argv[1],
+        passwd=sys.argv[2],
+        db=sys.argv[3],
         port=3306,
-        user=mysql_username,
-        passwd=mysql_password,
-        db=database_name
-    )
+        host='localhost')
 
-    # Create a cursor object
     cursor = db.cursor()
+    cursor.execute(
+        'SELECT cities.name FROM cities\
+        INNER JOIN states ON cities.state_id = states.id\
+        WHERE states.name = %s \
+        ORDER BY cities.id ASC', (sys.argv[4], ))
 
-    # Construct the SQL query with parameters
-    query = """
-    SELECT GROUP_CONCAT(cities.name SEPARATOR ', ')
-    FROM cities
-    INNER JOIN states ON cities.state_id = states.id
-    WHERE states.name = %s
-    ORDER BY cities.id ASC
-    """
+    cities = cursor.fetchall()
 
-    # Execute the query with parameters
-    cursor.execute(query, (state_name,))
+    idx = 0
+    for city in cities:
+        if idx != 0:
+            print(", ", end="")
+        print("%s" % city, end="")
+        idx += 1
+    print("")
 
-    # Fetch the result
-    result = cursor.fetchone()[0]
-
-    if result:
-        print(result)
-
-    # Close cursor and database connection
     cursor.close()
     db.close()
