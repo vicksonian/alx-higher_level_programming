@@ -1,2 +1,3 @@
 
 O(log(n))
+The complexity of the algorithym: O(log(n))
