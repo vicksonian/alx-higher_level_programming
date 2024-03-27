@@ -23,4 +23,3 @@ def _find_peak(lint, start, stop):
     if lint[mid] >= lint[mid - 1] and lint[mid] >= lint[mid + 1]:
         return lint[mid]
     return _find_peak(lint, start, mid) or _find_peak(lint, mid, stop)
-
