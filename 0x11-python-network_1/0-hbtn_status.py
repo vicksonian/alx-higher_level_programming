@@ -7,4 +7,3 @@ if __name__ == '__main__':
         html = response.read()
         print("Body response:\n\t- type: {}\n\t- content: {}\n\t-".format(
               type(html), html), "utf8 content:", html.decode("utf-8"))
-
